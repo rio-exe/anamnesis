@@ -1,0 +1,71 @@
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(135deg, #d0dcff 0%, #dad1ff 100%);
+  color: #1a1a3d;
+  min-height: 100vh;
+  line-height: 1.5;
+} 
+
+.middle-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 250px;
+  height: 320px;
+  background-color: white;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.back-card-right {
+  position: relative;
+  right: 250px;
+  z-index: -1;
+  transform: rotate(40deg);
+  background-color: black;
+}
+
+.back-card-left {
+  position: relative;
+  left: 250px;
+  z-index: -2;
+  background-color: white;
+  transform: rotate(-40deg);
+}
+
+.btn {
+  font-family: 'Inter', sans-serif;
+  border-radius: 9999px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  color: white;
+  padding: 0 1rem;
+}
+
+.add-new-card-button {
+  background: linear-gradient(90deg, #6366f1 0%, #8b5cf6 100%);
+  font-size: clamp(2rem, 6vw, 3.6rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  box-shadow: 0 16px 40px rgba(99, 102, 241, 0.32);
+  padding: 5px 30px;
+}
+
+.add-new-card-button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 24px 56px rgba(99, 102, 241, 0.45);
+}
+

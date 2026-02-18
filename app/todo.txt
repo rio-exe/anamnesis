@@ -1,0 +1,23 @@
+
+- Kernel
+    [] Create the java script essential class strucutre:
+        [X] Create a kernel that will bootstrap the whole application. Load buffers and files if any.
+        [] Create a loading screen for when the app is starting.
+    [] Create a global singleton standalone kernel to handle screen loading (asynchronous JS).
+
+- Initial Page
+    [] Create sound wave form with music name next to music button.
+    [] Create fade in transition.
+    [] Create fade out transition.
+    [] Create cards falling on in the back.
+
+- Home Page
+    [] Create design for both, no decks and with decks.
+    [] Create fade in transition. 
+
+- Assets
+    [] Check loading Gifs authenticity.
+
+- New modules
+    [] Create a graphic module to tweak DOM elements.:
+        [] Every page must have a fade in and out function that creates a smooth transition for it to open and close.

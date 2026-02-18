@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flashcards • Learn Fast & Fun</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/app/styles/common.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app/styles/initial-page/initial-page.css">
+  <link rel="stylesheet" href="app/styles/loading-page/loading-page.css">
+</head>
+<body>
+
+  <main class="hero">
+    <div class="content">
+      <!-- LOADING -->
+      <div style="display: none;" id="global-loading-page" class="loading-page">
+        <img src="/app/assets/gifs/loading.webp">
+      </div>
+
+      <!--INITIAL PAGE--->
+      <div class="initial-page">
+        <h1 class="headline">Learn anything.<br>One card at a time.</h1>
+        
+        <div class="button-group">
+          
+          <a href="https://github.com/rio-exe/anamnesis"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-github"
+            aria-label="View source code on GitHub">
+            <svg viewBox="0 0 24 24" class="github-icon" aria-hidden="true">
+              <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.69c-2.78.61-3.37-1.34-3.37-1.34-.46-1.16-1.12-1.47-1.12-1.47-.91-.62.07-.61.07-.61 1.01.07 1.54 1.03 1.54 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03A9.56 9.56 0 0112 6.8c.85.004 1.71.11 2.52.33 1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .26.18.57.69.49C19.13 20.17 22 16.42 22 12c0-5.52-4.48-10-10-10z"/>
+            </svg>
+            GitHub
+          </a>
+          
+          <a href="./app/view/home.html" class="btn btn-play">
+            Play
+          </a>
+          
+          <button class="btn btn-about" aria-label="Show about information">
+            About
+          </button>
+          
+        </div>
+        
+        <p class="footer-note">
+          Made with ❤️ for curious minds • v0.1
+        </p>
+
+        <div class="sound-icon" id="sound-icon-button">
+          <img id="sound-icon-img" src="/app/assets/icons/muted-icon.svg">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="/app/scripts/script.js" type="module"></script>
+  <script src="/app/scripts/page-helpers.js" type="module"></script>
+</body>
+</html>
