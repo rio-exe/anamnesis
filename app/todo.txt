@@ -2,7 +2,7 @@
 - Kernel
     [] Create the java script essential class strucutre:
         [X] Create a kernel that will bootstrap the whole application. Load buffers and files if any.
-        [] Create a loading screen for when the app is starting.
+        [X] Create a loading screen for when the app is starting.
     [] Create a global singleton standalone kernel to handle screen loading (asynchronous JS).
 
 - Initial Page

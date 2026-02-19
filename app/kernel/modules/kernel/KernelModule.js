@@ -17,3 +17,5 @@ export default class KernelModule {
     }
 
 }
+
+export const SingletonKernel = new KernelModule();

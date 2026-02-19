@@ -203,6 +203,27 @@ body {
   height: 60px;
 }
 
+.initial-page {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.initial-page.active {
+  animation: fadeUp 1s forwards;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.0);
+  }
+}
+
+
 /* Responsive adjustments */
 @media (max-width: 640px) {
   .button-group {

@@ -10,4 +10,5 @@ await kernel.bootstrap();
 console.log("Buffers loaded!");
 setTimeout(() => {
     document.getElementById("global-loading-page").style.display = "none";
+    document.getElementById("initial-page").classList.add("active");
 }, 3000);
